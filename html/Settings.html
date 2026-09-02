@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="../Style.css">
+    <script src="../script.js" defer></script>
+</head>
+
+<body>
+    <button class="btn">
+        <h1 class="btn-text menu-label">Menu</h1>
+    </button>
+    <nav class="dropdown-menu">
+        <ul>
+            <li><a href="Projects.html" class="nav-projects">Projects</a></li>
+            <li><a href="Settings.html" class="nav-settings">Settings</a></li>
+            <li><a href="Contact.html" class="nav-contact">Contact</a></li>
+            <li><a href="About-me.html" class="nav-about">About me</a></li>
+        </ul>
+    </nav>
+    <a href="index.html" class="home">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <title>home</title>
+            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m3 12l2-2m0 0l7-7l7 7M5 10v10a1 1 0 0 0 1 1h3m10-11l2 2m-2-2v10a1 1 0 0 1-1 1h-3m-6 0a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1m-6 0h6" />
+        </svg>
+    </a>
+
+
+    <div class="settings-card">
+        <div class="settings-row">
+            <span class="dark-mode-label">Dark Mode</span>
+            <label class="switch">
+                <input type="checkbox" class="theme-switch">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="settings-row">
+            <span class="language-label">Språk</span>
+            <select class="language-select">
+                <option value="no">Norsk</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </div>
+
+</body>
+
+</html>
